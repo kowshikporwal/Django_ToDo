@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}ToDo | List {% endblock %}
+
+{% block content %}
+    <a href="{% url 'todo:todo_index' %}"><< Go Back </a>
+    <h1>{{ todo.title }}</h1>
+    <p>{{ todo.text }}</p>
+    <br>
+    created on {{ todo.created_at }}
+{% endblock %}

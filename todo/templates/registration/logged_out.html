@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="row">
+    <div class="col-sm-6 col-sm-offset-6">
+         <p>You are logged out</p>
+         <p>Click to <a href="{% url 'login' %}" > log in </a> again</p>
+    </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Create a Label</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        {% include 'form_template.html' %}
+        <div  class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-success" role="submit">SUBMIT</button>
+        </div>
+    </form>
+{% endblock %}

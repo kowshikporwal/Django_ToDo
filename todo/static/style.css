@@ -1,0 +1,35 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.navbar{
+    border-radius: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-brand{
+    font-family: 'Jim NightShade',cursive;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+.panel-title{
+    text-align: center;
+    font-family: 'Jim NightShade',cursive;
+    font-size: 200%
+}
+
+.panel-body{
+    overflow: auto;
+    text-align: center;
+}
+
+.navbar-nav li.username{
+    color:#9d9d9d;
+    padding: 15px 15px;
+}
+
+.jumbotron{
+     font-family: 'Jim NightShade',cursive;
+}

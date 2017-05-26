@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for label in labels %}
+        <li><a href="{% url 'todo:label_details' label.label_title %}"> {{ label.label_title }} </a></li>
+    {% endfor %}
+{% endblock %}
